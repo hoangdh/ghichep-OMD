@@ -41,7 +41,7 @@
     
     - Trong quá trình cài đặt, phải khai báo mật khẩu cho MySQL
     
-<img src="images/2.mysql.png" />
+    <img src="images/2.mysql.png" />
 
 Sau khi khai báo xong, chúng ta chờ cho OMD cài đặt đến khi hoàn tất và thực hiện bước tiếp theo để tạo mới một `site` để monitoring.
 
@@ -53,7 +53,7 @@ Trước khi sử dụng, chúng ta phải khai báo một `site`:
 omd create monitoring
 ```
 
-<img src="images/3.info.png" />
+<img src="images/3.info-site.png" />
 
 Như vậy một site có tên là `monitoring` đã được tạo ra và phần thông tin được tô đỏ trong hình. Mặc định, username được cấp là `omdadmin` và password là `omd`.
 
@@ -62,30 +62,28 @@ Như vậy một site có tên là `monitoring` đã được tạo ra và phầ
 - **Bước 4:** Kích hoạt `site` vừa tạo
 
 Sau khi tạo xong `site`, chúng ta kích hoạt site đó và đăng nhập thử trên Web UI.
-
-   - Kích hoạt `site`
-
+    - Kích hoạt `site`
     ```
-    omd start monitoring
+     omd start monitoring
     ```
-
+    
     <img src="images/4.active-site.png" />
-
+    
    - Truy cập vào Web UI và đăng nhập bằng `omdadmin/omd`
-
+   
     ```
     http://địa-chỉ-ip/monitoring
     ```
-
+    
     <img src="images/5.webui1.png" />
-    
-    - Chọn giao diện `Check_MK`
-    
-    <img src="images/6.webui2-checkmk.png" />
+   
+   - Chọn giao diện `Check_MK`
+   
+   <img src="images/6.webui2-checkmk.png" />
 
 Sau khi chọn xong, chúng ta sẽ thấy một giao diện khá hoàn hảo với đầy đủ những chức năng cần thiết.
 
-   <img src="images/7.webui-main.png" />
+<img src="images/7.webui-main.png" />
 
 
 ### 3. Cài đặt Agent trên Host giám sát  <a name="3"></a> 
