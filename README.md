@@ -62,22 +62,24 @@ Như vậy một site có tên là `monitoring` đã được tạo ra và phầ
 - **Bước 4:** Kích hoạt `site` vừa tạo
 
 Sau khi tạo xong `site`, chúng ta kích hoạt site đó và đăng nhập thử trên Web UI.
-    - Kích hoạt `site`
-    ```
-     omd start monitoring
-    ```
+
+#### Kích hoạt `site`
     
-    <img src="images/4.active-site.png" />
-    
-   - Truy cập vào Web UI và đăng nhập bằng `omdadmin/omd`
+```
+omd start monitoring
+```
+
+<img src="images/4.active-site.png" />
+
+#### Truy cập vào Web UI và đăng nhập bằng `omdadmin/omd`
    
-    ```
-    http://địa-chỉ-ip/monitoring
-    ```
-    
-    <img src="images/5.webui1.png" />
+```
+http://địa-chỉ-ip/monitoring
+```
+
+<img src="images/5.webui1.png" />
    
-   - Chọn giao diện `Check_MK`
+#### Chọn giao diện `Check_MK`
    
    <img src="images/6.webui2-checkmk.png" />
 
