@@ -2,10 +2,10 @@
 
 #### Menu
 
-[1. Giới thiệu](#1)
-[2. Cài đặt trên Server](#2)
-[3. Cài đặt Agent trên Host giám sát](#3)
-[4. Thêm dịch vụ giám sát Active Checks](#4)
+- [1. Giới thiệu](#1)
+- [2. Cài đặt trên Server](#2)
+- [3. Cài đặt Agent trên Host giám sát](#3)
+- [4. Thêm dịch vụ giám sát Active Checks](#4)
 
 ### 1. Giới thiệu  <a name="1"></a>
 
@@ -31,13 +31,13 @@
 
     - Tìm kiếm phiên bản OMD hiện hành
     
-<img src="images/omd-1-search.png" />
+    <img src="images/omd-1-search.png" />
 
     - Cài đặt bản `omd-1.30` bao gồm cả `Nagios`
-    
-```
-apt-get install omd-1.30
-```
+
+    ```
+    apt-get install omd-1.30
+    ```
     
     - Trong quá trình cài đặt, phải khai báo mật khẩu cho MySQL
     
@@ -63,29 +63,29 @@ Như vậy một site có tên là `monitoring` đã được tạo ra và phầ
 
 Sau khi tạo xong `site`, chúng ta kích hoạt site đó và đăng nhập thử trên Web UI.
 
-    - Kích hoạt `site`
-    
+   - Kích hoạt `site`
+
     ```
     omd start monitoring
     ```
-    
-<img src="images/4.active-site.png" />
 
-    - Truy cập vào Web UI và đăng nhập bằng `omdadmin/omd`
-    
+    <img src="images/4.active-site.png" />
+
+   - Truy cập vào Web UI và đăng nhập bằng `omdadmin/omd`
+
     ```
     http://địa-chỉ-ip/monitoring
     ```
-    
-<img src="images/5.webui1.png" />
+
+    <img src="images/5.webui1.png" />
     
     - Chọn giao diện `Check_MK`
     
-<img src="images/6.webui2-checkmk.png" />
+    <img src="images/6.webui2-checkmk.png" />
 
 Sau khi chọn xong, chúng ta sẽ thấy một giao diện khá hoàn hảo với đầy đủ những chức năng cần thiết.
 
-<img src="images/7.webui-main.png" />
+   <img src="images/7.webui-main.png" />
 
 
 ### 3. Cài đặt Agent trên Host giám sát  <a name="3"></a> 
