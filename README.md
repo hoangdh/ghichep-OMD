@@ -35,9 +35,9 @@
 
     - Cài đặt bản `omd-1.30` bao gồm cả `Nagios`
     
-    ```
-    apt-get install omd-1.30
-    ```
+```
+apt-get install omd-1.30
+```
     
     - Trong quá trình cài đặt, phải khai báo mật khẩu cho MySQL
     
