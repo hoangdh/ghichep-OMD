@@ -32,5 +32,6 @@
 	- [Giám sát dịch vụ MySQL](docs/9.Monitor-MySQL.md)
 	- [Backup/Restore một site trong OMD](docs/10.Backup-site.md)
 	- [Giám sát OpenStack](docs/11.2.GiamSat-OpenStack.md)
+	- [Cấu hình Cluster cho check_mk - OMD](12.HA-Cluster-OMD.md)
 	
 (C) MediTech JSC,. - https://meditech.vn
